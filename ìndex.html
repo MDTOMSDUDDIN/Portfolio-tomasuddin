@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <!-- jsdelivr using package -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.css"/>
+    <title>Portfolios</title>
+</head>
+<body>
+    <div class="container">
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Logo</p>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav-list">
+                        <a href="#Home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#About" class="nav-link ">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#Project" class="nav-link ">Project</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#Contact" class="nav-link ">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+<!-- Dark mode section -->
+            <div class="mode">
+                <div class="moon-sun" id="toggle-switch">
+                    <i class="fa fa-moon" id="moon"></i>
+                    <i class="fa fa-sun" id="sun"></i>
+                </div>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenufunction()"></i>
+            </div>
+        </nav>
+<!-- main section  -->
+       <main class="wrapper">
+       <section class="featured-box" id="home">
+        <div class="featured-text">
+            <div class="bello">
+                <p>Hello I'm </p>
+            </div>
+            <div class="featured-name">
+                <span class="typedText">Tomas uddin</span>
+            </div>
+            <div class="text-info">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam molestiae non nobis, architecto eligendi nulla vero libero repellendus hic facere dolor, quibusdam necessitatibus exercitationem cumque veritatis officia natus ducimus nihil?</p>
+            </div>
+            <div class="text-btn">
+               <button class="btn hire-btn">Hire Me</button>
+               <button class="btn">Download CV <i class="uil uil-file"></i></button>
+            </div>
+            <div class="socical-icons">
+                <div class="icon_circle"></div>
+                <div class="icon"><i class="uil uil-facebook"></i></div>
+                <div class="icon"><i class="uil uil-github-alt"></i></div>
+                <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                <div class="icon"><i class="uil uil-whatsapp-alt"></i></div>
+            </div>
+        </div>
+        <div class="featured-image">
+            <div class="image">
+                <img src="" alt="tomas">
+            </div>
+        </div>
+       </section>
+
+<!-- abouts section starting -->
+       <section class="section" id="about">
+        <div class="top-header">
+            <h1>About Me</h1>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="about-info">
+                    <figure class="about-me">
+                       <figcaption>
+                        <img src="" class="profile" alt="">
+                        <h2>Web Developer</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis assumenda dicta aspernatur hic beatae vel dolorem nemo provident corrupti officia eius aliquid dolores libero recusandae doloremque praesentium, ipsa repudiandae vero, quas explicabo necessitatibus. Placeat culpa libero, explicabo cupiditate nemo aperiam corrupti. Impedit error nihil doloribus voluptate officiis laudantium beatae labore, tenetur voluptatem, sint facere quod repudiandae quibusdam. Ipsum, veritatis esse?</p>
+                       </figcaption> 
+                    </figure>
+                    <button class="about-me-btn">Hire Me</button>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-box">
+                    <span class="title">HTML</span>
+                    <div class="skill-bar ">
+                        <span class="skill-per html ">
+                            <span class="tooltip">90%</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <span class="title">CSS</span>
+                    <div class="skill-bar ">
+                        <span class="skill-per css">
+                            <span class="tooltip">70%</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <span class="title">BOOTSTRAP</span>
+                    <div class="skill-bar">
+                        <span class="skill-per  bootstrap">
+                            <span class="tooltip">95%</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <span class="title">Javascript</span>
+                    <div class="skill-bar">
+                        <span class="skill-per javascript">
+                            <span class="tooltip">20%</span>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="skill-box">
+                    <span class="title">PHP</span>
+                    <div class="skill-bar ">
+                        <span class="skill-per php">
+                            <span class="tooltip">80%</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <span class="title">Laravel</span>
+                    <div class="skill-bar">
+                        <span class="skill-perlaravel">
+                            <span class="tooltip">60%</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </section>
+<!-- Project section  -->
+       <section class="section" id="projects">
+          <div class="top-header">
+            <h1>Projects</h1>
+          </div>
+          <div class="project-container"></div>
+       </section>
+    </main>
+    </div>
+</body>
+</html>
