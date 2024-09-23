@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
     <!-- jsdelivr using package -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.css"/>
@@ -13,7 +14,10 @@
     <div class="container">
         <nav id="header">
             <div class="nav-logo">
-                <h6 class="nav-name">TOMASUDDIN</h6>
+                <img src="images/tomasuddin.png" class="img_logo" width="40px" height="40px" style="border-radius: 30%;" alt="">
+            </div>
+            <div class="nav-logo">
+                <h6 class="nav-name">MD.TOMASUDDIN</h6>
             </div>
             <div class="nav-menu" id="myNavMenu">
                 <ul class="nav_menu_list">
@@ -25,6 +29,11 @@
                         <a href="#About" class="nav-link ">About</a>
                         <div class="circle"></div>
                     </li>
+                    <li class="nav-list">
+                        <a href="#Eduction_Skill" class="nav-link ">Eduction&Skill </a>
+                        <div class="circle"></div>
+                    </li>
+
                     <li class="nav-list">
                         <a href="#Project" class="nav-link ">Project</a>
                         <div class="circle"></div>
@@ -42,13 +51,13 @@
                     <i class="fa fa-sun" id="sun"></i>
                 </div>
             </div>
-            <div class="">
+            <div class="nav-menu-btn">
                 <i class="uil uil-bars" onclick="myMenufunction()"></i>
             </div>
         </nav>
 <!-- main section  -->
        <main class="wrapper">
-       <section class="featured-box" id="home">
+       <section class="featured-box" id="Home">
         <div class="featured-text">
             <div class="hello">
                 <p>Hello I'm </p>
@@ -57,8 +66,8 @@
                 <span class="typedText"></span>
             </div>
             <div class="text-info">
-                <p> WEB DEVELOPER</p>
-                <P>I am interested learn to professional web development.PHP (Hypertext Preprocessor) and Laravel framework studying.Interest a passionate Web development (Backend).Recently i have completed diploma in computer scio i am familiar for developer .</P>
+                <h1> MD TOMAS UDDIN </h1>
+                <h3>web Developer</3>
             </div>
             <div class="text-btn">
                <button class="btn hire-btn">Hire Me</button>
@@ -80,7 +89,7 @@
        </section>
 
 <!-- abouts section starting -->
-       <section class="section" id="about">
+       <section class="section" id="About">
         <div class="top-header">
             <h1>About Me</h1>
         </div>
@@ -89,20 +98,21 @@
                 <div class="about-info">
                     <figure class="about-me">
                        <figcaption>
-                        <img src="" class="profile" alt="">
+                        <img src="images/tomasuddin.png" class="profile" alt="">
                         <h2>Web Developer</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis assumenda dicta aspernatur hic beatae vel dolorem nemo provident corrupti officia eius aliquid dolores libero recusandae doloremque praesentium, ipsa repudiandae vero, quas explicabo necessitatibus. Placeat culpa libero, explicabo cupiditate nemo aperiam corrupti. Impedit error nihil doloribus voluptate officiis laudantium beatae labore, tenetur voluptatem, sint facere quod repudiandae quibusdam. Ipsum, veritatis esse?</p>
+                        <p> Hello I am  MD TOMAS UDDIN ,
+                            I am interested learn to professional web development . PHP (Hypertext Preprocessor) and Laravel framework studying . Interest a passionate Web development (Backend). Recently i have completed diploma in computer science and technology . During my studies I developed a strong foundation about  technology's like HTML ,CSS ,Bootstrap Framework(css), Basic javascript,  PHP ,  LARAVEL Framework ,and also i am familiar  for backend i have successfully done so many full stack projects which have given me hands-on experience in developing web applications . i want to start my career as a web developer .</p>
                        </figcaption> 
                     </figure>
                     <button class="about-me-btn">Hire Me</button>
                 </div>
             </div>
-            <div class="skill">
+            <!-- <div class="skill">
                 <div class="skill-box">
                     <span class="title">HTML</span>
                     <div class="skill-bar ">
                         <span class="skill-per html ">
-                            <span class="tooltip">90%</span>
+                            <span class="tooltip">Experienced</span>
                         </span>
                     </div>
                 </div>
@@ -142,34 +152,38 @@
                 <div class="skill-box">
                     <span class="title">Laravel</span>
                     <div class="skill-bar">
-                        <span class="skill-perlaravel">
+                        <span class="skill-per laravel">
                             <span class="tooltip">60%</span>
                         </span>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
        </section>
 <!-- Project section  -->
-       <section class="section" id="projects">
+       <section class="section" id="Project">
           <div class="top-header">
             <h1>Projects</h1>
           </div>
           <div class="project-container">
             <div class="project-box">
-               <i class="uil uil-briefcase-alt"></i>
-               <h3>Completed</h3>
-               <label >10+Completed project</label>
+                <i class="fa-brands fa-php" style="font-size: 30px;"></i>
+                <a href="https://github.com/MDTOMSDUDDIN/response_website"><img src="images/php_project.png" width="320px" height="180px" alt=""></a>
+                <h3>Responsive Portfolio website & dashboard Panel->(PHP Project) </h3>
+                <label >github:<a href="https://github.com/MDTOMSDUDDIN/response_website">source code</a></label>
             </div>
             <div class="project-box">
-                <i class="uil uil-users-alt"></i>
-                <h3>Clients</h3>
-                <label> 70+ Happy</label>
+                <i class="fa-brands fa-laravel" style="font-size: 30px;"></i>
+                <a href="https://github.com/MDTOMSDUDDIN/Blog_site"><img src="images/laravel-blog-site.png" width="320px" height="180px" alt=""></a>
+                <h3>Blog Website & Control Admin/Author dashboard Panel =>(Lavavel Project) </h3>
+                <label >github:<a href="https://github.com/MDTOMSDUDDIN/Blog_site">source code</a></label>
              </div>
              <div class="project-box">
-                <i class="uil uil-award"></i>
-                <h3>Experience</h3>
-                <label>Diploma in engineering . learing  php laravel web development</label>
+                
+                <i class="fa-brands fa-code" style="font-size: 25px;"></i>
+                <a href="https://https://mdtomsduddin.github.io/Pioneer-bank/"><img src="images/bank .png" width="320px" height="190px" alt=""></a>
+                <h3>Banking Transaction Account & balance transfer System(Html,Css,Javascript )</h3>
+                <label >Click :<a href="https://mdtomsduddin.github.io/Pioneer-bank/">live Project</a></label>
              </div>
           </div>
        </section>
@@ -183,12 +197,12 @@
             <div class="col">
                 <div class="contact-info">
                     <h2>Find Me <i class="uil uil-corner-right-down"></i> </h2>
-                    <p><i class="uil uil-envelope">Email:mdtoamsuddin1@gmail.com</i></p>
-                    <p><i>Phone :  01873050391 </i></p>
+                    <p><i class="uil uil-envelope"></i><a href="Email:mdtoamsuddin1@gmail.com">Email:mdtoamsuddin1@gmail.com</a></p>
+                    <p><i class="uil uil-phone"></i>  Phone:01873050391 </p>
                 </div>
             </div>
             <div class="col">
-                <div class="form-control">
+                <div class="form-control ">
                     <div class="form-inputs">
                         <input type="text" class="input-field" placeholder="Your Name ">
                         <input type="email" class="input-field" placeholder="Your Email ">
@@ -236,5 +250,7 @@
             </div>
         </footer>
     </div>
-</body>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script>
+         <script src="script.js"></script>
+ </body>
 </html>
